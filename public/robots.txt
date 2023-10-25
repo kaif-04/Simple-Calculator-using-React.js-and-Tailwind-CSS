@@ -1,0 +1,5 @@
+This file is used for controlling search engine crawlers' behavior on your website.
+
+# https://www.robotstxt.org/robotstxt.html
+User-agent: *
+Disallow:

@@ -1,0 +1,39 @@
+* {
+  background-color: black; /* Set the background color of all elements to black */
+  color: white; /* Set the text color of all elements to white */
+  border-radius: 8px; /* Apply a border-radius of 8px to all elements, making them slightly rounded */
+  padding: 20px; /* Add 20px of padding to all elements */
+}
+
+
+h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  text-align: center;
+  color: #00fec7; /* Set a distinct color for the heading */
+  margin-bottom: 1rem;
+}
+
+/* Input field styles */
+button {
+  width: 100%;
+  padding: 1rem;
+  font-size: 1.25rem;
+  border: 2px solid #00fec7; /* Add a border to the buttons */
+  border-radius: 0.25rem;
+  background-color: #00fec7; /* Set a button background color */
+  color: #e2e8f0; /* Text color for buttons */
+  cursor: pointer;
+  transition: background-color 0.2s ease; /* Add a smooth transition for button color */
+}
+
+/* Hover effect for buttons */
+button:hover {
+  background-color: #0a7f66; /* Darker button color on hover */
+}
+
+
+
+@import 'tailwindcss/base'; /* Import the 'base' styles from the Tailwind CSS framework */
+@import 'tailwindcss/components'; /* Import the 'components' styles from the Tailwind CSS framework */
+@import 'tailwindcss/utilities'; /* Import the 'utilities' styles from the Tailwind CSS framework */
